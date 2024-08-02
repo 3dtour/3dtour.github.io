@@ -1,6 +1,48 @@
 var APP_DATA = {
   "scenes": [
     {
+      "id": "22-1p-terrace",
+      "name": "1P Terrace",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2992,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.3486096518907473,
+          "pitch": 0.045624036575780735,
+          "rotation": 0,
+          "target": "4-1p-living-room"
+        },
+      ],
+      "infoHotspots": []
+    },
+    {
       "id": "4-1p-living-room",
       "name": "1P Living room",
       "levels": [
@@ -33,6 +75,12 @@ var APP_DATA = {
         "fov": 1.3401592523986738
       },
       "linkHotspots": [
+        {
+          "yaw": 0.3,
+          "pitch": 0.10161365144750434,
+          "rotation": 0,
+          "target": "22-1p-terrace"
+        },
         {
           "yaw": -1.9441466399535656,
           "pitch": 0.10161365144750434,

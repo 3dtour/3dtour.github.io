@@ -49,7 +49,181 @@ var APP_DATA = {
           "yaw": 0.7002712784098399,
           "pitch": 0.07024463552410332,
           "rotation": 0,
+          "target": "22-1p-terrace"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "22-1p-terrace",
+      "name": "1P Terrace",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2992,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.3486096518907473,
+          "pitch": 0.045624036575780735,
+          "rotation": 0,
+          "target": "4-1p-living-room"
+        },
+        {
+          "yaw": -1.1253330262917345,
+          "pitch": 0.5053213134986709,
+          "rotation": 0,
+          "target": "24-0p-front-yard-terrace"
+        },
+        {
+          "yaw": 1.3157544727014425,
+          "pitch": 0.7233134884758883,
+          "rotation": 0,
+          "target": "23-0p-front-yard"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-0p-front-yard",
+      "name": "0P Front Yard",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2992,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.5222455374597352,
+          "pitch": -0.6652923440571126,
+          "rotation": 0,
+          "target": "22-1p-terrace"
+        },
+        {
+          "yaw": 0.7499502140395755,
+          "pitch": -0.013633825550300571,
+          "rotation": 0,
+          "target": "24-0p-front-yard-terrace"
+        },
+        {
+          "yaw": 1.2135017470359806,
+          "pitch": 0.09296081258239752,
+          "rotation": 0,
+          "target": "19-backyard-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "24-0p-front-yard-terrace",
+      "name": "0P Front Yard Terrace",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2992,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.0930049556451955,
+          "pitch": -0.48694004118054046,
+          "rotation": 0,
+          "target": "22-1p-terrace"
+        },
+        {
+          "yaw": -0.5,
+          "pitch": 0.3,
+          "rotation": 0,
+          "target": "19-backyard-1"
+        },
+        {
+          "yaw": -2.1488631802204736,
+          "pitch": 0.039736215342042414,
+          "rotation": 0,
           "target": "6-0p-terrace"
+        },
+        {
+          "yaw": -2.5,
+          "pitch": 0.039736215342042414,
+          "rotation": 0,
+          "target": "7-0p-entry"
+        },
+        {
+          "yaw": 1.7019991240674317,
+          "pitch": -0.006297535017422362,
+          "rotation": 0,
+          "target": "23-0p-front-yard"
         }
       ],
       "infoHotspots": []
@@ -318,29 +492,35 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -1.8136773475490884,
+        "yaw": 0,
         "pitch": 0.0961732302910896,
         "fov": 1.3401592523986738
       },
       "linkHotspots": [
         {
-          "yaw": -0.9942500951306954,
-          "pitch": 0.04710411498558287,
+          "yaw": 1.6969272093304024,
+          "pitch": 0.1498207600129895,
+          "rotation": 0,
+          "target": "24-0p-front-yard-terrace"
+        },
+        {
+          "yaw": 2.469907557691503,
+          "pitch": -0.005886044488143227,
           "rotation": 0,
           "target": "7-0p-entry"
         },
         {
-          "yaw": -1.7233081724531871,
-          "pitch": -0.2378719597007084,
-          "rotation": 0,
-          "target": "4-1p-living-room"
-        },
-        {
-          "yaw": -2.9233081724531871,
-          "pitch": 0.3578719597007084,
+          "yaw": 1,
+          "pitch": 0.2,
           "rotation": 0,
           "target": "19-backyard-1"
-        }
+        },
+        {
+          "yaw": 0.5,
+          "pitch": 0.3,
+          "rotation": 0,
+          "target": "21-backyard-3"
+        },
       ],
       "infoHotspots": []
     },
@@ -933,13 +1113,7 @@ var APP_DATA = {
           "yaw": 1.9647171391393439,
           "pitch": -0.4396077817160453,
           "rotation": 0,
-          "target": "6-0p-terrace"
-        },
-        {
-          "yaw": -0.9890195733158293,
-          "pitch": 0.15369638760582127,
-          "rotation": 0,
-          "target": "20-backyard-2"
+          "target": "24-0p-front-yard-terrace"
         },
         {
           "yaw": 1.668806216958422,
@@ -951,68 +1125,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "20-backyard-2",
-      "name": "Backyard 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2992,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.1706904697476403,
-          "pitch": 0.06473696417290853,
-          "rotation": 0,
-          "target": "21-backyard-3"
-        },
-        {
-          "yaw": 2.958119822310957,
-          "pitch": 0.015198403900335222,
-          "rotation": 0,
-          "target": "21-backyard-3"
-        },
-        {
-          "yaw": -2.814139502721609,
-          "pitch": -0.3146769034171655,
-          "rotation": 0,
-          "target": "6-0p-terrace"
-        },
-        {
-          "yaw": -2.9198225504844455,
-          "pitch": 0.005275316452223677,
-          "rotation": 0,
-          "target": "18-basement-entrance"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
       "id": "21-backyard-3",
-      "name": "Backyard 3",
+      "name": "Backyard 2",
       "levels": [
         {
           "tileSize": 256,
@@ -1050,16 +1164,10 @@ var APP_DATA = {
           "target": "19-backyard-1"
         },
         {
-          "yaw": 0.6520416615952058,
-          "pitch": 0.04350127801640724,
-          "rotation": 0,
-          "target": "20-backyard-2"
-        },
-        {
           "yaw": 1.8832915849329188,
           "pitch": -0.3766624095111162,
           "rotation": 0,
-          "target": "6-0p-terrace"
+          "target": "24-0p-front-yard-terrace"
         },
         {
           "yaw": 1.660125947460009,
