@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>3D Tour</title>
+		<style type="text/css">
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #wrapper {
+            min-height: 100%; 
+        }
+    </style>
+
+	</head>
+	<body>
+		<div id="wrapper">
+		<div style="text-align: center;">
+			<h1>3D Tour</h1><br>
+			Please enter your password:
+			<input type="password" name="password" value="" id="pwd">
+			<button type="button" id="but">Submit</button>
+		</div>
+		</div>
+	</body>
+    
+<script type="text/javascript">
+    document.getElementById("but").onclick = function () {
+        location.href = document.getElementById('pwd').value;
+    };
+</script>
+</html>
